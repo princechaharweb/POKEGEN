@@ -59,6 +59,13 @@ body {
     gap: 1rem;
 }
 
+.home-link {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
 .gen-link {
     color: white;
     text-decoration: none;
