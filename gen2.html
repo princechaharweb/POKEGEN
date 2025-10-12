@@ -25,41 +25,13 @@
 
     <main>
         <h1 class="generation-title">Generation II Pokémon</h1>
-        <div class="pokemon-grid">
-            <div class="pokemon-card">
-                <div class="pokemon-card-inner">
-                    <div class="pokemon-card-front">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png" alt="Chikorita">
-                        <h3>Chikorita</h3>
-                        <p class="pokemon-number">#152</p>
-                        <div class="pokemon-types">
-                            <span class="type grass">Grass</span>
-                        </div>
-                    </div>
-                    <div class="pokemon-card-back">
-                        <h3>Chikorita</h3>
-                        <p class="pokemon-description">A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sun rays.</p>
-                        <div class="pokemon-stats">
-                            <div class="stat">
-                                <span>HP:</span>
-                                <span>45</span>
-                            </div>
-                            <div class="stat">
-                                <span>Attack:</span>
-                                <span>49</span>
-                            </div>
-                            <div class="stat">
-                                <span>Defense:</span>
-                                <span>65</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more Gen II Pokemon cards here -->
+        <div id="pokemonGrid" class="pokemon-grid">
+            <!-- Pokémon cards will be injected here by gen2.js -->
         </div>
+        <div id="loading" style="text-align:center;color:white;margin-top:1rem;">Loading Pokémon...</div>
     </main>
 
+    <script src="gen2.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
