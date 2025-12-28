@@ -1,4 +1,4 @@
-<h3 align="center">A passionate frontend developer from India</h3>
+<h5 align="center">A Passionate Developer from India !! </h5>
 
 - 🔭 I’m currently working on [POKEGEN](https://pokegen-pied.vercel.app/)
 
